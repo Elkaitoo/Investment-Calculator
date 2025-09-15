@@ -1,5 +1,6 @@
 import InvestLogo from '/invest.svg'
 import Header from './components/Header'
+import InvestmentForm from './components/InvestmentForm'
 function App() {
   return (
     <>
@@ -8,6 +9,8 @@ function App() {
         title="Investment Calculator" 
         alt="Investment logo" 
       />
+      <InvestmentForm />
+
     </>
   )
 }
