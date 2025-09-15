@@ -1,6 +1,7 @@
 import InvestLogo from '/invest.svg'
 import Header from './components/Header'
 import InvestmentForm from './components/InvestmentForm'
+import ResultsTable from './components/ResultsTable'
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
         alt="Investment logo" 
       />
       <InvestmentForm />
+      <ResultsTable />
 
     </>
   )
